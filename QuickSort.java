@@ -33,6 +33,7 @@ public class QuickSort {
 		disp(a);
 		sort(a, 0, a.length - 1);
 		disp(a);
+        System.out.println("yagnaihua ");
 	}
 
 	private static void sort(int[] a, int left, int right) {		//分为两部分，一个是左部分，一个是右部分
